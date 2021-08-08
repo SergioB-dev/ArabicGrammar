@@ -5,6 +5,6 @@
 
 ![Mockup](Images/sketch.jpeg)
 
-![Latest](Images/latestImage.png)
+![Latest](Images/latestImage.png | width=100)
 
 
