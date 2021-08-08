@@ -5,7 +5,7 @@
 
 ![Mockup](Images/sketch.jpeg)
 
-<img src="Images/latestImage.png" width="100">
+<img src="Images/latestImage.png" width="300">
 
 ![Latest](Images/latestImage.png | width=100)
 
