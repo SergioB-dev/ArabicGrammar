@@ -5,6 +5,6 @@
 
 ![Mockup](Images/sketch.jpeg)
 
-![Latest](Images/latest.png)
+![Latest](Images/latestImage.png)
 
 
