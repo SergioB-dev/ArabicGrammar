@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943EB03F26BF656100C5E271 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EB03E26BF656100C5E271 /* DummyData.swift */; };
+		943EC3DF26BF615E0089A8D3 /* ArabicGrammarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EC3DE26BF615E0089A8D3 /* ArabicGrammarApp.swift */; };
+		943EC3E126BF615E0089A8D3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EC3E026BF615E0089A8D3 /* HomeScreen.swift */; };
+		943EC3E326BF615F0089A8D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943EC3E226BF615F0089A8D3 /* Assets.xcassets */; };
+		943EC3E626BF615F0089A8D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943EC3E526BF615F0089A8D3 /* Preview Assets.xcassets */; };
+		94D6AFA026BF85E600239DEE /* SelfWrappingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D6AF9F26BF85E600239DEE /* SelfWrappingRowView.swift */; };
+		94E643E126C03FFB00408B19 /* ArabicGrammarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E643E026C03FFB00408B19 /* ArabicGrammarTests.swift */; };
+		94E643EA26C07F4700408B19 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E643E926C07F4700408B19 /* Word.swift */; };
+		94E643ED26C0805300408B19 /* WordInterfaceBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E643EC26C0805300408B19 /* WordInterfaceBoxView.swift */; };
+		94E643F026C080F700408B19 /* GrammarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E643EF26C080F700408B19 /* GrammarManager.swift */; };
+		94E643F226C084FA00408B19 /* OverviewSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E643F126C084FA00408B19 /* OverviewSectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94E643E226C03FFB00408B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943EC3D326BF615E0089A8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943EC3DA26BF615E0089A8D3;
+			remoteInfo = ArabicGrammar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		943EB03E26BF656100C5E271 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		943EC3DB26BF615E0089A8D3 /* ArabicGrammar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArabicGrammar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		943EC3DE26BF615E0089A8D3 /* ArabicGrammarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicGrammarApp.swift; sourceTree = "<group>"; };
+		943EC3E026BF615E0089A8D3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		943EC3E226BF615F0089A8D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943EC3E526BF615F0089A8D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94D6AF9F26BF85E600239DEE /* SelfWrappingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfWrappingRowView.swift; sourceTree = "<group>"; };
+		94E643DE26C03FFB00408B19 /* ArabicGrammarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArabicGrammarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E643E026C03FFB00408B19 /* ArabicGrammarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicGrammarTests.swift; sourceTree = "<group>"; };
+		94E643E926C07F4700408B19 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		94E643EC26C0805300408B19 /* WordInterfaceBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordInterfaceBoxView.swift; sourceTree = "<group>"; };
+		94E643EF26C080F700408B19 /* GrammarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarManager.swift; sourceTree = "<group>"; };
+		94E643F126C084FA00408B19 /* OverviewSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewSectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943EC3D826BF615E0089A8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E643DB26C03FFB00408B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943EC3D226BF615E0089A8D3 = {
+			isa = PBXGroup;
+			children = (
+				943EC3DD26BF615E0089A8D3 /* ArabicGrammar */,
+				94E643DF26C03FFB00408B19 /* ArabicGrammarTests */,
+				943EC3DC26BF615E0089A8D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943EC3DC26BF615E0089A8D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943EC3DB26BF615E0089A8D3 /* ArabicGrammar.app */,
+				94E643DE26C03FFB00408B19 /* ArabicGrammarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943EC3DD26BF615E0089A8D3 /* ArabicGrammar */ = {
+			isa = PBXGroup;
+			children = (
+				94E643F326C0A03D00408B19 /* Screens */,
+				943EC3DE26BF615E0089A8D3 /* ArabicGrammarApp.swift */,
+				94E643EE26C080DB00408B19 /* ViewModel */,
+				94E643EB26C0803900408B19 /* Views */,
+				94E643E826C07F3500408B19 /* Models */,
+				94E643E726C0685F00408B19 /* ParentViews */,
+				94D6AF9F26BF85E600239DEE /* SelfWrappingRowView.swift */,
+				943EB03E26BF656100C5E271 /* DummyData.swift */,
+				943EC3E226BF615F0089A8D3 /* Assets.xcassets */,
+				943EC3E426BF615F0089A8D3 /* Preview Content */,
+			);
+			path = ArabicGrammar;
+			sourceTree = "<group>";
+		};
+		943EC3E426BF615F0089A8D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				943EC3E526BF615F0089A8D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94E643DF26C03FFB00408B19 /* ArabicGrammarTests */ = {
+			isa = PBXGroup;
+			children = (
+				94E643E026C03FFB00408B19 /* ArabicGrammarTests.swift */,
+			);
+			path = ArabicGrammarTests;
+			sourceTree = "<group>";
+		};
+		94E643E726C0685F00408B19 /* ParentViews */ = {
+			isa = PBXGroup;
+			children = (
+				94E643F126C084FA00408B19 /* OverviewSectionView.swift */,
+			);
+			path = ParentViews;
+			sourceTree = "<group>";
+		};
+		94E643E826C07F3500408B19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94E643E926C07F4700408B19 /* Word.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94E643EB26C0803900408B19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94E643EC26C0805300408B19 /* WordInterfaceBoxView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94E643EE26C080DB00408B19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				94E643EF26C080F700408B19 /* GrammarManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		94E643F326C0A03D00408B19 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				943EC3E026BF615E0089A8D3 /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943EC3DA26BF615E0089A8D3 /* ArabicGrammar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943EC3E926BF615F0089A8D3 /* Build configuration list for PBXNativeTarget "ArabicGrammar" */;
+			buildPhases = (
+				943EC3D726BF615E0089A8D3 /* Sources */,
+				943EC3D826BF615E0089A8D3 /* Frameworks */,
+				943EC3D926BF615E0089A8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArabicGrammar;
+			productName = ArabicGrammar;
+			productReference = 943EC3DB26BF615E0089A8D3 /* ArabicGrammar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94E643DD26C03FFB00408B19 /* ArabicGrammarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E643E426C03FFB00408B19 /* Build configuration list for PBXNativeTarget "ArabicGrammarTests" */;
+			buildPhases = (
+				94E643DA26C03FFB00408B19 /* Sources */,
+				94E643DB26C03FFB00408B19 /* Frameworks */,
+				94E643DC26C03FFB00408B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E643E326C03FFB00408B19 /* PBXTargetDependency */,
+			);
+			name = ArabicGrammarTests;
+			productName = ArabicGrammarTests;
+			productReference = 94E643DE26C03FFB00408B19 /* ArabicGrammarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943EC3D326BF615E0089A8D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					943EC3DA26BF615E0089A8D3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					94E643DD26C03FFB00408B19 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 943EC3DA26BF615E0089A8D3;
+					};
+				};
+			};
+			buildConfigurationList = 943EC3D626BF615E0089A8D3 /* Build configuration list for PBXProject "ArabicGrammar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943EC3D226BF615E0089A8D3;
+			productRefGroup = 943EC3DC26BF615E0089A8D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943EC3DA26BF615E0089A8D3 /* ArabicGrammar */,
+				94E643DD26C03FFB00408B19 /* ArabicGrammarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943EC3D926BF615E0089A8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943EC3E626BF615F0089A8D3 /* Preview Assets.xcassets in Resources */,
+				943EC3E326BF615F0089A8D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E643DC26C03FFB00408B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943EC3D726BF615E0089A8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943EB03F26BF656100C5E271 /* DummyData.swift in Sources */,
+				94E643F026C080F700408B19 /* GrammarManager.swift in Sources */,
+				94D6AFA026BF85E600239DEE /* SelfWrappingRowView.swift in Sources */,
+				943EC3E126BF615E0089A8D3 /* HomeScreen.swift in Sources */,
+				943EC3DF26BF615E0089A8D3 /* ArabicGrammarApp.swift in Sources */,
+				94E643ED26C0805300408B19 /* WordInterfaceBoxView.swift in Sources */,
+				94E643EA26C07F4700408B19 /* Word.swift in Sources */,
+				94E643F226C084FA00408B19 /* OverviewSectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E643DA26C03FFB00408B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E643E126C03FFB00408B19 /* ArabicGrammarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94E643E326C03FFB00408B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943EC3DA26BF615E0089A8D3 /* ArabicGrammar */;
+			targetProxy = 94E643E226C03FFB00408B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		943EC3E726BF615F0089A8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		943EC3E826BF615F0089A8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		943EC3EA26BF615F0089A8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArabicGrammar/Preview Content\"";
+				DEVELOPMENT_TEAM = 77ZMZ9S3J5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDT.ArabicGrammar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		943EC3EB26BF615F0089A8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArabicGrammar/Preview Content\"";
+				DEVELOPMENT_TEAM = 77ZMZ9S3J5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDT.ArabicGrammar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		94E643E526C03FFB00408B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77ZMZ9S3J5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDT.ArabicGrammarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArabicGrammar.app/ArabicGrammar";
+			};
+			name = Debug;
+		};
+		94E643E626C03FFB00408B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77ZMZ9S3J5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDT.ArabicGrammarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArabicGrammar.app/ArabicGrammar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943EC3D626BF615E0089A8D3 /* Build configuration list for PBXProject "ArabicGrammar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943EC3E726BF615F0089A8D3 /* Debug */,
+				943EC3E826BF615F0089A8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943EC3E926BF615F0089A8D3 /* Build configuration list for PBXNativeTarget "ArabicGrammar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943EC3EA26BF615F0089A8D3 /* Debug */,
+				943EC3EB26BF615F0089A8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E643E426C03FFB00408B19 /* Build configuration list for PBXNativeTarget "ArabicGrammarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E643E526C03FFB00408B19 /* Debug */,
+				94E643E626C03FFB00408B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943EC3D326BF615E0089A8D3 /* Project object */;
+}
